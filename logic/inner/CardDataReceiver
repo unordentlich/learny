@@ -1,0 +1,3 @@
+window.electronAPI.getCards().then((data) => {
+  console.log(data);
+});

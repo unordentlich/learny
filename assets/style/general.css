@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #4d4f77;
+    --secondary-200-color: #414260;
+    --primary-400-color: #98a3c0;
+
+    --primary-text-color: #bebfd3;
+
+    --bg-color: #2d3454;
+    --text-color: #fff;
+    --menu-bg-color: #272f47;
+    --input-bg-color: #4f576b;
+    --input-text-color: #8f99b3;
+    --input-shadow-color: #5f6982;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--menu-bg-color);
+    padding: 15px 20px;
+    align-items: center;
+}
+
+.menu-bar input {
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: var(--input-bg-color);
+    border: 2px solid var(--input-shadow-color);
+}
+
+.menu-bar input:focus {
+    outline: none;
+}
+
+.menu-bar input::placeholder {
+    color: var(--input-text-color);
+    font-weight: 550;
+}
+
+.menu-item {
+    display: flex;
+    gap: 10px;
+}
+
+.primary-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.secondary-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}

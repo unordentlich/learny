@@ -1,0 +1,18 @@
+{
+  "name": "learny",
+  "version": "1.0.0",
+  "description": "An interactive learn platform which allows you to create flash cards",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonas",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^32.2.0"
+  },
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}

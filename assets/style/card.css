@@ -1,0 +1,89 @@
+.flash-card {
+    flex: 1;
+}
+
+.pane .card-list {
+    max-width: 500px;
+}
+
+.flash-card .content {
+    height: 600px;
+    background-color: #2b2f44;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 550;
+    color: #707990;
+    border: 4px solid #25293b;
+}
+
+.flash-card .content .back {
+    display: none;
+}
+
+.pane {
+    display: flex;
+    margin: 40px;
+    gap: 40px;
+    height: 850px;
+    width: 80vw;
+}
+
+.pane .card-list .preview {
+    background-color: var(--secondary-200-color);
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pane .card-list .preview p {
+    font-size: 14px;
+    font-weight: 550;
+    color: #fff;
+    margin: 0;
+}
+
+.pane .card-list {
+    background-color: var(--menu-bg-color);
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pane .card-list .list-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    overflow-y: scroll;
+    
+}
+
+.d-flex {
+    display: flex;
+    gap: 10px;
+}
+
+.action {
+    font-size: 11px;
+    font-size: 600;
+    color: var(--primary-400-color);
+}
+
+.list-fade {
+    position: absolute;
+    background: rgb(168,169,170);
+    background: linear-gradient(0deg, var(--menu-bg-color) 2%, #272f474b 10%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
